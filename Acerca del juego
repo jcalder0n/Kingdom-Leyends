@@ -1,0 +1,221 @@
+El juego es similar en estilo a Shattered Pixels Dungeons, pero este en lugar de tener clases de personajes solo tiene magos.
+ Al empezar el juego vendrías a ser aprendiz, alguien sin magia que utilice objetos imbuidos y pociones. Al derrotar al primer jefe obtendrá de recompensa la clase de su elección. Con el subir de nivel y experiencia adquirirá puntos de habilidad con los cuales pueda ir construyendo su personaje en las diferentes clases: Mago, Hechicero, Brujo, Druida, Paladín, Monje y Alquimista. Dentro de cada genero también habrá habilidades especiales, como por ejemplo que el Mago sea quien use la magia blanca y arcana, el Monje combata mas directamente al enemigo potenciando a sus aliados y a si mismo, por su parte el Hechicero podría usar la magia roja y azul.
+La trama del juego sería la siguiente. 
+ Hace algún tiempo, dos reinos poderosos entraron en guerra, un guerra sangrienta y encarnizada que arrastró a sus aliados, pelearon con todas sus fuerzas, pero ninguno parecía ceder frente al otro. Los reyes, cegados por la ambición decidieron buscar el poder para ganar la guerra en la magia, pero sus magos, no siendo lo suficientemente fuertes, por orden de uno de los rey abrieron una vieja puerta al inframundo que había estado sellada para usar su magia, lo que no sabían es que la fuente de esa energía tan poderosa era algo realmente malvado. Este poder comenzó a tomar el mundo para si mismo y las tinieblas se comenzaron a esparcir fuera de esa puerta. Ahora ambas partes debieron olvidar la guerra y unirse para enfrentar a un enemigo aun mayor. Ya muy desgastados por el combate han empezado a reclutar entusiastas para hacer frente a las fuerzas del mal, en un intento de hacer tiempo mientras los sabios buscan la forma de detener el mal. Entre estos entusiastas esta el jugador, un aprendiz de magia que quiso arriesgar su vida para salvar su hogar. 
+
+El origen de la puerta al inframundo:
+ Hace mucho tiempo los magos mas poderosos de un antiguo templo que hoy ya esta en ruinas intentaron robar el poder del inframundo, abriendo una puerta mágica, pero despertaron un ente maligno del que manaba todo ese poder y que podría tomar el mundo fácilmente, aterrados por un ente tan poderoso decidieron sellar la puerta y no dejar pistas de como abrir esa puerta.
+ El templo fue asolado por los mismos magos para ocultar su ubicación y terminó en ruinas.
+ Mucho tiempo después los magos de uno de los reinos que estaba en conflicto descubrieron la manera de romper ese sello, desatando ese gran mal y ahora ese ente tiene las puertas abiertas, y mientras él prepara su salida ha convocado seres malignos para evitar que pueda ser sellada esa puerta nuevamente.
+Al llegar a la puerta y el jugador estar cerca de conseguir sellarla, uno de los reyes, corrompido por la voz del mal decide aliarse con el ente malévolo y hace un trato en el que el mal le daría un enorme poder para detener al héroe y a cambio el mal dejaría al rey corrupto reinar en el nuevo mundo.
+Podría ser interesante si el jugador y sus aliados descubren poco a poco las razones por las que el rey se alió con el mal. ¿Fue corrompido por la promesa de poder, o esconde un secreto aún más oscuro? También podrías considerar hacer que el mal se presente en diferentes formas, como influenciando a los aliados del jugador o manipulando a los ciudadanos para que se unan a su causa.
+El ente del mal nunca logra atravesar la puerta del inframundo, porque el héroe logra sellar la puerta a tiempo, así verdadero mal no será del todo derrotado en el caso de que se quiera hacer alguna segunda parte. 
+El Juego:
+ El juego debería ser parecido a Shattered Pixel Dungeons en cuanto a la generación de mapas dividiéndolos en pisos para no hacer un mapa extenso y aburrido y así cargando un mapa por vez ahorrar recursos. 
+El jugador debería encontrar aliados en la mazmorra, como otros magos y guerreros. Algo así como el fantasma que puede invocar el jugador en Shattered Pixel Dungeons, que lo acompaña por todos los pisos mientras tenga vida. De esa manera un Mago, por ejemplo, al no ser una clase que precisamente sea de combate se dedique mas bien a mejorar y mantener con vida a sus aliados. A diferencia de un Monje o un Brujo que deberían pelear solos, igual encontrando aliados, pero sin la misma capacidad de mantenerlos con vida. De esa manera un mismo juego y una misma historia tiene muchas formas de ser jugado y varios finales que al final son el mismo. Me explico, el final del juego es derrotar al mal, pero mientras un monje lo derrotó solo, usando la magia para potenciar su personaje, un Mago logró mantener con vida a todos los aliados para así derrotar al mal juntos, eso seria como la "ruta pacifista" del juego Undertale.
+Es una buena manera de aumentar la rejugabilidad del juego.
+
+Para las mecánicas:
+De Shattered Pixel Dungeon tomaremos el sistema de combate, es mejor que sea por turnos, eso creo que nos ahorraría mucho a la hora de programar, y haría un juego mas sencillo. 
+En cuanto al sistema de experiencia creo que lo dará principalmente los enemigos derrotados, pergaminos o pociones, misiones secundarias y la creación de objetos. 
+El sistema de objetos y el equipo, pues debería componerse de la armadura, algunos amuletos, anillos, varitas, un arma cuerpo a cuerpo, un libro de hechizos o bastón mágico, y quizás también algunos ítems consumibles como pociones, pergaminos o alimentos para recuperar vida o energía.
+Podríamos añadir un sistema de crafteo o forja, en el que el jugador pueda crear o mejorar objetos a partir de materiales que se encuentran en la mazmorra. 
+También podríamos implementar un sistema de habilidades, en el que el jugador pueda desbloquear y mejorar habilidades específicas para su personaje a medida que gana experiencia y sube de nivel.
+Otra mecánica interesante podría ser la interacción con los aliados que se encuentran en la mazmorra. Quizás se podría incluir la posibilidad de dar órdenes específicas a los aliados durante la batalla, o incluso de cambiar de personaje durante la partida para aprovechar las habilidades y características únicas de cada uno.
+En cuanto a la generación de mapas, podríamos implementar un sistema de generación procedural similar al de Shattered Pixel Dungeon, que permita generar mazmorras aleatorias cada vez que se juega para aumentar la rejugabilidad del juego.
+
+El sistema de decisiones:
+    • Aliarse o no con ciertos personajes.
+    • Decidir el destino de ciertos personajes que se encuentren en el camino.
+    • Elegir entre distintas misiones secundarias que se presenten durante la aventura.
+Estas decisiones podrían tener consecuencias a lo largo del juego, como cambios en la trama, relaciones con otros personajes, y también afectar el final del juego. Por ejemplo, si el jugador decide aliarse con el mal, podría tener un final diferente al de aquellos que decidieron luchar contra él. Es importante que las decisiones sean significativas y tengan un impacto real en el desarrollo de la trama para que el jugador sienta que su elección realmente importa.
+
+Me gusta eso de que el jugador sienta que el decidió. 
+ Solo sugiero que no sean cambios demasiado grandes como para alterar todo el juego. Pongo un ejemplo: Si eres un Hechicero y decides pelear contra el mal y ganas, recorres la mazmorra, derrotas a algunos jefes, derrotas al Rey Corrupto, sellas la puerta y ganas habiendo salvado el mundo (ese seria a grandes rasgos el final que hasta ahora tengo en mente) pero si por el contrario decides aliarte con el mal y lo ayudas a salir entonces ya cambia la idea de que el mal nunca salga para que quede para una posible segunda entrega.... A ese tipo de cambios grandes me refiero. Al final de cuentas todo debería llevarte a sellar la puerta. Por ejemplo un jugador que ha sido malo (será una mecánica del juego, calcular que tan malo es con relación a algunas decisiones) el Rey Corrupto le ofrezca unirse a el, y si el jugador acepta, al llegar a la puerta el Rey Corrupto traicione al jugador para quedarse con el poder o para que no haya alguien que pueda ser su rival, de esa forma no cambia el final, sino los medios. A fin de cuentas creo que mas importante que lo que sucede al ganar viene siendo lo que pasa mientras se juega, mantener al jugador a la expectativa.
+Me parece interesante y le daría al juego un mayor valor de rejugabilidad.
+ Además, podría haber diferentes finales en función de las decisiones del jugador y su alineación moral.
+
+ También podríamos incorporar algunos personajes secundarios que ofrezcan misiones opcionales que afecten la trama principal. Por ejemplo, un personaje podría pedir al jugador que recupere un objeto mágico que, si se devuelve a la persona correcta, podría cambiar el final del juego.
+En general, creo que el sistema de decisiones y consecuencias debe ser cuidadosamente diseñado para que el jugador se sienta involucrado en la historia y en las consecuencias de sus acciones.
+
+ Al avanzar el juego uno de los reyes viene representado el mal y el que no se corrompió con las promesas de poder represente al lado bueno. 
+Quiero comentarte acerca del sistema de maldad/bondad del jugador.
+ Si por ejemplo tenemos que hay un aliado que se nos une si lo salvamos pero es una misión secundaria podremos tomarlo así si el jugador acepta salvarlo añadiríamos el valor de +1 a la variable "alineación" independientemente de si lo logra ya que se preocupo por el aliado y lo intento salvar, ahora si el jugador rechaza salvarlo sabiendo que el posible aliado morirá entonces se añade el valor -1 a "alineación". Otro ejemplo del mismo caso, seria si (y solo por ejemplo ilustrativo por ahora) seria que un guerrero está atrapado en una habitación con un cíclope. Si el jugador es un Mago con la habilidad de traer de nuevo a la vida al aliado y decide esperar a que el cíclope mate al aliado para revivirlo y así tener el aliado evitando el combate con ese minijefe peligroso le podríamos dar el valor de -1 aun habiendo revivido al aliado, por ser una elección poco moral. Si mas adelante el jugador tiene un valor negativo de (por ejemplo) -5 de alineación el rey malo le propone aliarse a el, de lo contrario si su alineación es de +5 pase otra cosa.
+Me parece una buena forma de implementar el sistema de alineación en el juego. Es importante tener en cuenta que las decisiones que tome el jugador deben tener un impacto real en su alineación, de lo contrario el sistema no tendrá sentido.
+
+ Ambos reyes empezarían como buenos y poco a poco se separarían sus maneras de actuar manteniendo la ilusión de que ambos están al lado del jugador para que sea sorpresiva la traición del rey malo.
+ Una idea que me parece interesante es que cuando se le notifique al jugador sobre el guerrero y el cíclope uno de los reyes diga que vaya a salvarlo (+1) y el otro diga que no hay tiempo que perder (-1) o incluso si la trama va avanzada y ya el rey malo actúa de forma mas cruel con la excusa de detener al ente malvado antes de que escape proponga al jugador esperar a que el aliado muera para revivirlo
+Me parece una buena idea mantener la ilusión de que ambos reyes están al lado del jugador al principio y que sus maneras de actuar se vayan separando poco a poco, para que la traición del rey malo sea sorpresiva e impactante.
+En cuanto al ejemplo del guerrero y el cíclope, me parece una buena manera de agregar más profundidad al sistema de alineación del jugador. Además, el hecho de que los dos reyes tengan opiniones distintas y que sus posturas puedan cambiar a medida que avanza la trama agrega más complejidad y hace que las decisiones del jugador tengan un mayor peso.
+También me gusta la idea de que si el jugador tiene un valor negativo de alineación, el rey malo le proponga aliarse a él, mientras que si su valor es positivo, pase algo diferente. Esto le da una motivación adicional al jugador para tratar de mantener su alineación en el lado bueno, ya que afectará directamente la trama del juego.
+En general, creo que estas ideas son excelentes y agregarán mucho valor al juego.
+
+      
+    • Tema: Juego de rol de fantasía medieval.
+    • Trama: El jugador es un mago que debe reunir poderosos artefactos mágicos para derrotar a un ente malvado que amenaza al reino.
+    • Mecánica de generación de mapas: Los mapas se generan aleatoriamente cada vez que el jugador entra a un área nueva.
+    • Mecánica de peleas: El combate es por turnos y el jugador puede elegir entre diferentes hechizos y habilidades para derrotar a los enemigos. Además, el jugador cuenta con la ayuda de aliados que se pueden unir al grupo.
+    • Sistema de alineación: Se asigna un valor de bondad o maldad al jugador en función de sus decisiones y acciones, lo que puede influir en el desarrollo de la trama y en las opciones que se le presentan.
+    • Objetos: Existen objetos que el jugador puede recolectar para mejorar sus habilidades o su equipo.
+    • Habilidades y tipos de mago: El jugador puede elegir entre diferentes tipos de magos con habilidades específicas.
+    • Dos reyes: Habrá dos reyes en el juego, uno bueno y otro malo, y el jugador tendrá que tomar decisiones que afectarán su relación con ellos.
+    • Historias secundarias: Habrá misiones secundarias que el jugador puede completar para obtener recompensas o aliados.
+
+ Pasaré a nombrarte un objeto que creo que deberían tener todos los personajes. El libro de hechizos, de esa manera simplificamos la magia de cada clase de mago. Por ejemplo cada libro tiene 10 "paginas" por así decirlo osea que pueden haber 10 hechizos en el libro, y estos los encuentre el jugador en la mazmorra o los aprenda conforme al nivel, pero estén directamente relacionados a la clase del jugador. Por ejemplo un Monje pelearía mas cuerpo a cuerpo, por lo cual un hechizo sería "Piel de Hierro" (solo es un ejemplo) que aumente su resistencia, en cambio un Mago tendría "Curar" que repone la salud propia o de algún aliado, un Hechicero tendría "Relámpago" que haría daño a los enemigos, un Brujo tendría "Posesión" que le daría control sobre un enemigo para que sea su aliado sin la posibilidad de curarlo... Y así con cada clase.
+ Tener un libro de hechizos para cada clase de mago es una buena forma de simplificar el sistema de magia y hacer que sea más fácil de entender y utilizar para los jugadores. Además, al limitar el número de hechizos en el libro a 10, se hace que el jugador tenga que elegir cuidadosamente cuáles hechizos quiere tener a su disposición y cómo los quiere usar en cada situación. Esto puede agregar un elemento estratégico al juego.
+Además, la idea de que los jugadores puedan encontrar nuevos hechizos en las mazmorras o aprenderlos a medida que suben de nivel es una buena manera de motivar a los jugadores a explorar y a probar diferentes enfoques para el combate y la resolución de problemas.
+
+ Osea que dos Magos del mismo nivel y las mismas elecciones en el juego podrían tener estrategias diferentes, por ejemplo mientras uno se centra en potenciar a los aliados, el otro se centra en curarlos. Algo por el estilo,
+Esto fomentará la experimentación y la creatividad en la forma en que los jugadores combinan sus habilidades para superar los desafíos del juego.
+ Otra característica es que podría haber un panel lateral para los hechizos del libro, así tienes acceso a varios hechizos de manera fluida sin interrumpir el juego y sin entorpecer la jugabilidad.
+ Además si el juego es por turnos como Shattered Pixels Dungeons daría tiempo a pensar tus ataques sin presiones, siendo el juego mas estratégico que de acción.
+ Eso permitiría que el jugador tenga una vista rápida de sus hechizos y pueda seleccionarlos rápidamente sin interrumpir el flujo del juego. Además, si el juego es por turnos, el panel lateral de hechizos daría más tiempo para planear una estrategia antes de tomar una decisión. Esto sin duda haría que el juego sea más estratégico y le daría más profundidad a las decisiones del jugador.
+Podemos llamarlo (al juego) "Kingdom Leyends". Es un nombre genérico que refleja la temática de fantasía y aventuras que hemos estado discutiendo. 
+
+
+ Aquí te dejo una breve descripción de cada clase de mago:
+    • Mago: especializado en magia de curación y protección, puede sanar heridas de los aliados y fortalecer su defensa.
+    • Hechicero: experto en magia ofensiva, puede lanzar potentes hechizos de fuego y relámpagos para causar daño a los enemigos.
+    • Brujo: dominador de la magia oscura, puede invocar criaturas y maldiciones para debilitar y controlar a los enemigos.
+
+El Druida sería especialista en magia natural, capaz de manipular los elementos de la naturaleza y las energías de la vida para curar, proteger y causar daño.
+El Hechicero sería un experto en magia de manipulación, capaz de controlar a los enemigos y aliados, así como de desorientarlos y debilitarlos.
+El Mago sería un mago que se especializa en magia de apoyo, capaz de mejorar a sus aliados en el combate, sanar sus heridas y protegerlos de los daños.
+El Brujo sería un experto en magia oscura, capaz de invocar criaturas aterradoras y causar daño masivo a los enemigos, aunque a cambio tendría menos habilidades defensivas y curativas.
+Monje = Es un mago que pelea cuerpo a cuerpo, con sus golpes imbuidos en magia, y de armadura su misma magia, por ejemplo una habilidad que cree una armadura etérea que se fortalezca con cada golpe que da el monje o que se regenere con un porcentaje del daño hecho. Sería un guerrero ligero. 
+ Paladín = Este usaría armas, sería un guerrero pero con magia, un mago capaz de usar espadas, las armaduras mas pesadas. Pero incapaz de usar magia avanzada de ningún tipo.
+Que es un Mago, un hechicero y un brujo? 
+Un "mago" es alguien que practica la magia y es capaz de realizar trucos y trucos que parecen sobrenaturales.
+Un "hechicero" se refiere a alguien que tiene habilidades mágicas y utiliza conjuros y rituales para lograr sus objetivos.
+Un "brujo" es alguien que practica la magia, a menudo utilizando la ayuda de espíritus o entidades sobrenaturales. A veces también se asocia con la brujería y la magia negra.
+
+Un lugar de Mago Negro usaremos mejor Brujo, así es mas fresco utilizar el término "Brujo" para referirnos al mago que domina la magia oscura. Esto puede dar un toque distinto y más original al juego.
+
+Hechicero encierra magia roja y azul, eso para que debas elegir bien tus hechizos.  Es un mago que tiene habilidades tanto de magia roja como de magia azul, y que dependiendo de la elección del jugador, puede especializarse en una de ellas como subclase.
+
+Sí, el Mago es una clase especializada en magia curativa y defensiva, por lo que sería considerado un mago bueno en la mayoría de los casos. Sin embargo, eso no significa que todos los magos blancos sean necesariamente buenos, ya que su moral y ética también pueden influir en sus acciones y decisiones.
+
+La alineación:
+ Podría variar algo en los hechizos o equipos que encuentres en base a la "moral" del jugador, lo que llamaremos "alineación"
+ Podrías implementar diferentes ramas de habilidades y objetos que estén relacionados con la moral o alineación del jugador. Por ejemplo, si el jugador actúa de manera buena, podría desbloquear habilidades y objetos relacionados con la magia blanca, mientras que si actúa de manera mala, podría desbloquear habilidades y objetos relacionados con la magia negra. También podrías agregar elementos de elección moral en el juego, como decisiones que afecten el desarrollo de la trama o las relaciones con otros personajes.
+ La idea es que puedas elegir cualquier clase de magia y no que la elija tus acciones. Si un Brujo es bueno, pueda conseguir algo de magia blanca o arcana, o si un Mago es malo pueda conseguir alguna maldición como drenar vida por ejemplo.
+ Entonces la "alineación" o "moral" del jugador no limitaría las opciones de magia que puede utilizar, sino que afectaría la forma en que el personaje interactúa con el mundo del juego y cómo es percibido por los personajes no jugables (PNJ) en el juego. Por ejemplo, un jugador con una alineación buena puede ser más fácilmente aceptado por los PNJ y tener acceso a misiones específicas, mientras que un jugador con una alineación mala puede tener más dificultades para relacionarse con los PNJ y ser aceptado en ciertos lugares o misiones. 
+ Cosas como misiones extra para ganarte la confianza de algún PNJ o que te de algún objeto extra si eres bueno, también diálogos únicos dependiendo del nivel de alineación. Por ejemplo que un personaje diga:
+ "Tengo fe en ti <nombre del jugador>, mi espada es tuya> y decida seguir al jugador.
+ Pero si eres malo diga algo como:
+ "En estos tiempos cualquier ayuda es bienvenida" y se una al jugador.
+ Si es bastante malo lo mande a hacer otra misión para aceptar acompañarle.
+ Y si ha alcanzado el máximo de maldad diga algo como:
+ "He de temer mas a ti que al mal que encierran las puertas del inframundo." y proceda a pelear contra el jugador.
+ La idea es que puedas ser la clase de mago que quieras ser, y que las habilidades sean lo que se vea afectado por la alineación y no las clases
+ Hay que diseñar un sistema de habilidades que se vean afectadas por la alineación del jugador en lugar de las clases. Por ejemplo, una habilidad de curación podría ser más efectiva para un jugador con una alineación buena que para uno con una alineación mala, mientras que una habilidad de daño podría ser más efectiva para un jugador con una alineación mala que para uno con una alineación buena. De esta manera, los jugadores pueden elegir cualquier clase de magia y aún así tener la libertad de ser el tipo de héroe que quieran ser, según su alineación.
+
+ Además modificar el árbol de habilidades ligeramente, por ejemplo. Un Mago con una alineación buena a cierto nivel desbloquee "Bendecir" (por ejemplo) que de un porcentaje de posibilidad de sanar de efectos negativos o reponer algo de vida a los aliados cada vez que el Mago haga daño físico.
+ La alineación del jugador puede afectar el tipo de habilidades que pueden desbloquear y cómo funcionan. Por ejemplo, un Mago con una alineación buena podría desbloquear habilidades que apoyan a los aliados, como "Bendecir" o "Curar", mientras que un Mago con una alineación mala podría desbloquear habilidades que infligen más daño a los enemigos, como "Maldición". De esta manera, la elección de la alineación del jugador tendría un impacto significativo en el juego y en las habilidades que pueden usar.
+
+Por ejemplo, ya que aunque malo, es un mago blanco, no podría usar magia negra muy avanzada, pero si por ejemplo "Grifo" (un nombre de ejemplo) donde por cada golpe el Mago pueda robar algo de vida al enemigo y reponerla solo al mago y no a los aliados.
+ La "alineación" debería ser un valor oculto, que solo se tome en el juego sin que el jugador lo sepa, así parecerá que los personajes tienen cierta conciencia, claro que rápidamente sabrá el jugador que es un mecanismo del juego, pero eso le dará un buen toque que seguro les gustará. Un ejemplo de eso esta en Undertale. 
+ Esto añadiría un nivel adicional de profundidad y misterio al juego, y permitiría que el jugador descubra su propia alineación a través de las elecciones y acciones que tome durante el juego. Además, al mantenerlo oculto, los diálogos y las interacciones con los personajes del juego podrían variar según las decisiones del jugador sin que sea evidente que se trata de un mecanismo de juego.
+ Además, podría ser interesante que las decisiones que tomes como jugador también afecten a la trama y el desarrollo del juego, creando así diferentes finales y desenlaces posibles según las elecciones que hagas. Esto puede agregar una capa adicional de rejugabilidad al juego y hacer que los jugadores quieran volver a jugar para explorar todas las diferentes opciones y finales.
+
+Guerrero, Arquero y Picaro quedan descartados
+
+    • Paladin: Un mago especializado en la magia sagrada y la justicia divina, que combina habilidades mágicas con habilidades de combate cuerpo a cuerpo. Puede curar heridas, proteger a sus aliados con hechizos sagrados y repeler fuerzas malignas, pero también es capaz de infligir daño a los enemigos y juzgar su maldad con el poder divino. Es un defensor de la ley y la moralidad, y su fe le otorga una gran fortaleza y determinación.
+
+    • Monje: un mago que se enfoca en el uso de su cuerpo y mente para controlar y manipular la energía del universo. Sus habilidades se centran en artes marciales, meditación y el uso de la energía chi para realizar proezas sobrenaturales como la curación, la telequinesis y la canalización de energía elemental.
+    • Clérigo: un mago que obtiene sus poderes de una deidad o poder divino, por lo que sus habilidades están enfocadas en la curación, la protección y la destrucción de enemigos. Puede usar su magia para convocar a criaturas divinas o para sanar a sus aliados, y también puede luchar contra los no creyentes y aquellos que representan el mal.
+
+ Como el clérigo es una muy buena idea podemos crear algún PNJ para desarrollar un poco el personaje 
+    • 
+Actualmente tenemos 7 clases: Mago, Hechicero, Brujo, Druida, Monje, Paladin y Alquimista.
+
+El Alquimista es un personaje que utiliza su conocimiento en la manipulación y transmutación de materiales para crear pociones, elixires y otros objetos que pueden otorgar beneficios temporales o permanentes a sus aliados o causar daño a sus enemigos. En términos de combate, el Alquimista puede utilizar sus pociones y elixires para curar a sus aliados o dañar a los enemigos, además de tener habilidades únicas que le permiten crear y lanzar ataques químicos.
+
+  El primer Jefe del juego será uno de los magos del rey que fue corrompido, al derrotarlo, vuelve en si, y al no poder sobrevivir pone su fuerza vital en su ultimo hechizo que seria darte la clase de tu elección. 
+
+Al ser un mago supremo, pero corrupto no logra soltar todo su poder, por eso lo podrás derrotar siendo un aprendiz. Al volver en si, podrá usar todo su poder. ¿Poque no curarse? la excusa puede ser que no tiene la suficiente fuerza de voluntad para resistir la fuerza de la maldad que corrompe a las personas, por eso curar sus heridas no tendría sentido. 
+ Al ser derrotado, su último acto de bondad es concederte la clase de tu elección. También puede aprovechar para introducir algún tipo de maldición o efecto secundario que venga con la clase elegida, para añadir un poco de emoción y reto al juego.
+
+Al ser un mago viejo y sabio tiene conocimiento de todas las magias, no el suficiente como para convertirte en el mago de tu elección, sino para iniciarte. De allí obtienes el libro de hechizos y desbloquearás la rama de habilidad correspondiente.
+
+ El Aprendiz esta imposibilitado de usar magia, pero si puede usar objetos mágicos y pociones. Le daremos una varita y una espada. Las varitas, serán armas con un hechizo especifico, un hechizo básico, como una bola de energía, fuego, etc... las cuales tienen cierto numero de cargas, que se recuperan con el tiempo. Otra cosa que podrá usar serán los pergaminos, estos tienen magias mas fuertes que las varitas, pero solo se leen una o máximo tres veces, y no se recargan sino que desaparecen
+El Aprendiz también puede ser capaz de usar ciertos objetos mágicos que encuentre en su aventura, como anillos, amuletos, talismanes, etc. Cada uno de estos objetos podría proporcionar algún tipo de beneficio o habilidad mágica específica. Además, el Aprendiz podría tener habilidades físicas o de combate básicas, como la capacidad de esquivar, bloquear, atacar con su espada y realizar algunas maniobras simples. Estas habilidades físicas podrían mejorarse a medida que el Aprendiz gane experiencia y suba de nivel.
+
+debería encontrar rápido al primer jefe, ya que carece de sentido un juego de magia sin magia. Añade al aprendiz como parte de la trama ya que en si el no es una clase.
+
+    • Mago: Es un usuario especializado en la magia, capaz de lanzar una amplia variedad de hechizos para infligir daño, debilitar a los enemigos o proteger a los aliados. Su fuente de poder es la energía mágica y utiliza su sabiduría y destreza para controlarla.
+    • Hechicero: Es un mago que se especializa en la manipulación de la energía mágica para producir efectos sorprendentes y poderosos. A diferencia del mago, el hechicero se enfoca en la fuerza bruta de la magia en lugar de su control.
+    • Brujo: Es un mago oscuro que obtiene su poder de fuerzas místicas siniestras. Utiliza la magia negra para infligir daño a sus enemigos y para controlar y manipular a las criaturas más terribles.
+    • Druida: Es un guerrero espiritual que se comunica con la naturaleza y canaliza su poder. Puede transformarse en animales, invocar criaturas para luchar a su lado y utilizar la magia para curar a los heridos y proteger a sus aliados.
+    • Monje: Es un guerrero que ha dominado las artes marciales y la meditación. Utiliza su cuerpo y mente para infligir daño a los enemigos y para proteger a sus aliados.
+    • Paladín: Es un guerrero sagrado que utiliza su fe y su fuerza para combatir el mal. Pueden curar a los heridos, proteger a los aliados y utilizar la magia sagrada para infligir daño a los enemigos.
+    • Alquimista: Es un experto en la alquimia, capaz de crear pociones y brebajes con efectos sorprendentes. También puede utilizar sus conocimientos para fabricar armas y armaduras especiales y para crear trampas y explosivos.
+Cada clase tendrá sus propias habilidades, atributos y estadísticas únicas que las diferenciarán del resto. También tendrán acceso a diferentes armas y armaduras, y podrán especializarse en diferentes ramas de habilidades para mejorar sus habilidades en áreas específicas.
+
+Hasta ahora en el tema de Mundo y Mapa:
+    • El mundo del juego tendrá diferentes zonas con diferentes climas y paisajes.
+    • Cada zona tendrá diferentes tipos de enemigos y jefes, y también diferentes recursos y objetos útiles.
+    • El mapa del juego estará dividido en zonas que se desbloquean a medida que se avanza en la historia o se cumplen ciertas condiciones.
+
+    • Las zonas del mapa estarán conectadas por caminos y puertas que se abren al cumplir ciertas condiciones, como derrotar a un jefe o resolver un acertijo.
+    • Los jugadores podrán usar ciertos objetos o habilidades para moverse más rápidamente por el mapa, como un teletransporte o un hechizo de velocidad.
+
+ Nos vamos a basar en Shatterd Pixels Dungeons para esto de los mapas, y sera en una mazmorra donde vamos a buscar la puerta a sellar. Además, ya por ahora tenemos mucho trabajo pendiente con lo de un solo jugador, como para embarcarnos en el multijugador 
+ En cuanto a Mundo y Mapa, hasta ahora tenemos:
+    • El juego se desarrolla en una mazmorra generada proceduralmente.
+    • Los jugadores deben buscar la puerta del jefe final para sellarla y ganar el juego.
+    • Se utilizará el estilo de mapa y generación de mazmorras de Shattered Pixel Dungeons.
+    • El juego será para un solo jugador, sin modo multijugador.
+
+
+ Estos son los puntos que tenemos hasta ahora en el tema de Mundo y Mapa:
+    • El juego se desarrollará en una mazmorra generada aleatoriamente cada vez que se juegue.
+    • La mazmorra tendrá varios niveles o pisos, cada uno más difícil que el anterior.
+    • Cada nivel estará compuesto por varias habitaciones conectadas por pasillos.
+    • Al final de cada nivel habrá un jefe que deberá ser derrotado para poder avanzar al siguiente nivel.
+    • El objetivo del juego será encontrar la puerta que lleva a la dimensión sellada y derrotar al jefe final que la protege.
+    • El jugador deberá explorar la mazmorra para encontrar objetos y tesoros que le ayuden a avanzar.
+    • Habrá trampas y obstáculos en la mazmorra que el jugador deberá superar.
+    • La mazmorra estará poblada por enemigos que el jugador deberá derrotar.
+    • El jugador deberá encontrar llaves y objetos para poder abrir puertas y avanzar.
+    • No habrá modo multijugador, el juego será para un solo jugador.
+
+ En el tema de Historia:
+    • El rey explica que hay una antigua puerta sellada que se encuentra en una mazmorra profunda.
+    • La puerta fue sellada hace siglos por los sabios para evitar que una gran amenaza llegue al mundo.
+    • La mazmorra es un lugar peligroso y lleno de trampas, pero el jugador debe atravesarla para llegar a la puerta y sellarla.
+    • El jugador comenzará como un Aprendiz que no sabe usar magia y deberá encontrar la manera de adquirir una clase.
+    • El primer jefe es un mago corrupto que, al ser derrotado, iniciará al jugador en una clase de su elección.
+    • El jugador se encontrará con personajes en su camino, algunos de los cuales le darán misiones secundarias.
+    • El objetivo final es sellar la puerta para evitar que la gran amenaza sea liberada en el mundo.
+
+
+Historia Del Juego
+
+Hace algún tiempo, dos de los reinos más poderosos entraron en guerra, una guerra sangrienta y encarnizada. Cada rey llamó a sus aliados y pelearon con todas sus fuerzas, pero ninguno parecía ceder frente al otro.
+Los reyes, cegados por la ambición, decidieron buscar el poder para ganar la guerra en la magia. Pero sus magos, no siendo lo suficientemente fuertes, por orden del rey abrieron una puerta al inframundo para usar su magia. Lo que no sabían es que la fuente de esa energía tan poderosa era algo realmente malvado.
+Este poder comenzó a tomar el mundo para sí mismo y las tinieblas se comenzaron a esparcir fuera de esa puerta. Ahora ambas partes debieron olvidar la guerra y unirse para enfrentar a un enemigo aún mayor. Ya muy desgastados por el combate han empezado a reclutar entusiastas para hacer frente a las fuerzas del mal, en un intento de hacer tiempo mientras los sabios buscan la forma de detener el mal. Entre estos entusiastas está el jugador, un aprendiz de magia que quiso arriesgar su vida para salvar su hogar. ¿Logrará poner fin a esta pesadilla?
+El origen de la puerta:
+Hace mucho tiempo, los magos más poderosos intentaron robar el poder del inframundo, abriendo una puerta mágica, pero despertaron un ente maligno del que manaba todo ese poder. Este poder podría tomar el mundo fácilmente. Aterrados, los magos decidieron sellar la puerta y no dejar pistas de cómo abrir esa puerta. Luego, los magos de uno de los reinos en conflicto descubrieron la manera de romper ese sello, desatando ese gran mal. Ahora ese ente tiene las puertas abiertas y mientras él prepara su salida ha convocado seres malignos para evitar que pueda ser sellada esa puerta.
+Desarrollo:
+Ahora que lo pienso, creo que no sería necesario que el ente maligno salga del inframundo. ¿Qué tal si uno de los reyes, al llegar a la puerta y estando el jugador cerca de conseguir sellarla, decide aliarse con el mal? Podría hacer un trato en el que el mal le daría un enorme poder para detener al héroe y, a cambio, el mal dejaría al rey corrupto reinar en el nuevo mundo.
+De esa manera, el verdadero mal no será del todo derrotado en el caso de que se quiera hacer alguna segunda parte.
+ Sistema de magia y del Sistema de progreso y niveles.
+Para el sistema de magia, se podría utilizar un sistema basado en habilidades y conjuros. Cada habilidad o conjuro tendría un costo de maná o energía, y podría tener distintos efectos, desde daño directo a enemigos hasta curación o invocación de criaturas. Los jugadores podrían ir desbloqueando nuevas habilidades o mejorando las ya existentes a medida que suben de nivel o completan misiones.
+En cuanto al sistema de progreso y niveles, se podría utilizar un sistema de experiencia que se obtiene al derrotar enemigos, completar misiones o realizar logros en el juego. A medida que se acumula experiencia, el jugador subiría de nivel, lo que le permitiría desbloquear nuevas habilidades y mejorar sus atributos como salud, maná, fuerza, agilidad, etc. También se podría agregar un sistema de equipamiento que permita al jugador mejorar sus atributos y habilidades a través de objetos y armas encontradas en la mazmorra.
+
+al subir de nivel ganarás puntos para mejorar las habilidades, dependiendo de las habilidades que elijas obtendrás un mago mas personalizado. Lo mas importante es que no puedas conseguir todas las habilidades, de esa manera haya mas de una opción de Mago, Druida, Paladín...
+Entonces, para el sistema de progreso y niveles, se podrían establecer ciertas habilidades que el jugador puede mejorar a medida que sube de nivel. Por ejemplo, habilidades como la potencia mágica, la resistencia mágica, la capacidad de invocar criaturas mágicas, la velocidad de lanzamiento de hechizos, etc. Cada habilidad se puede dividir en varios niveles, y al subir de nivel el jugador obtiene un punto de habilidad para gastar en una de esas habilidades.
+También es posible agregar habilidades específicas de ciertas clases de magos, como habilidades de curación para los magos blancos, habilidades de transformación para los druidas, habilidades de defensa para los paladines, etc. De esta manera, cada clase de mago tendrá su propia forma de jugar y estrategias únicas.
+Para fomentar la diversidad entre los magos, se puede establecer un límite en el número de habilidades que el jugador puede aprender. Por ejemplo, el jugador solo puede aprender un máximo de 10 habilidades en total, lo que significa que tendrá que elegir cuidadosamente cuáles habilidades mejorar y cuáles dejar de lado. Esto también fomentará que los jugadores experimenten con diferentes habilidades y estrategias.
+Finalmente, se puede considerar la posibilidad de otorgar habilidades especiales o mejoras de habilidades a través de misiones y logros especiales, lo que motivará a los jugadores a explorar y experimentar en el mundo del juego para mejorar sus personajes de magos.
+
+Por ejemplo el daño físico base, la defensa base, la evasión, la opción a bloqueo u otros valores suben de forma predeterminada al subir de nivel. Por decirlo de una manera presento una tabla de ejemplo donde coloco la relación entre cada clase y como aumentan sus estadísticas por nivel. Mago: Fuerza + 0,5 - 1; Defensa + 0,5 - 1; Agilidad + 1; Magia + 1 - 3; Evasión + 1 - 1,5. Brujo: Fuerza + 0,3 - 0,8; Defensa + 0,5 - 1; Agilidad + 1,2; Magia +4; Evasión + 1. Paladín: Fuerza + 2 - 4; Defensa + 3 - 4,5; Agilidad + 0,6; Magia + 1; Evasión + 2. Ese es un ejemplo de los valores que aumentaran de manera automática al subir de nivel. Por otra parte el juego te dará puntos de habilidad, con los cuales adquirir o mejorar habilidades. Estas si serán elegidas por el jugador
+
+En cuanto al sistema de magia, se podría considerar la posibilidad de que cada personaje tenga un conjunto limitado de hechizos que puedan usar, lo que agregaría un elemento estratégico a las batallas. Además, podría haber ciertas habilidades de magia que solo estén disponibles para ciertas clases, como se mencionó anteriormente.
+
+
+Si, efectivamente habrá un numero limitado de hechizos, 10. Igual sera un numero limitado de habilidades, con las que potenciar los hechizos. Por poner ejemplos: El Mago: Podría obtener si es bueno "Bendición" (no se si la recuerdes) que le de un porcentaje de posibilidad de curar de efectos negativos o reponer vida a los aliados cada vez que el mago hace daño físico. O si es malo podría obtener "Grifo" que robe un porcentaje de vida para el mago al golpear a un enemigo. Independientemente de la habilidad, si el mago cuenta con el hechizo de Curar, podría mantener con vida a sus aliados si obtiene Bendición, o a si mismo si Obtiene Grifo
+ Las habilidades pueden complementar los hechizos para mejorar la estrategia del jugador y hacer que su personaje sea más efectivo en combate. Además, el hecho de que las habilidades sean limitadas fomenta la elección estratégica y la personalización del personaje.
+¿Cómo se adquieren las habilidades en el juego? 
+Sería hasta ahora tres requisitos. Nivel del personaje, Alineación y La clase del personaje
