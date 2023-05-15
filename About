@@ -1,0 +1,221 @@
+The game is similar in style to Shattered Pixels Dungeons, but instead of having character classes, it only has wizards.
+At the beginning of the game you would come to be an apprentice, someone without magic who uses imbued objects and potions. Defeating the first boss will reward you with the class of your choice. As you level up and experience you will acquire skill points with which you can build your character into the different classes: Wizard, Sorcerer, Warlock, Druid, Paladin, Monk and Alchemist. Within each genre there will also be special abilities, such as the Wizard being the one who uses white and arcane magic, the Monk fighting the enemy more directly, empowering his allies and himself, for his part the Sorcerer could use red magic and blue.
+The plot of the game would be as follows.
+Some time ago, two powerful kingdoms went to war, a bloody and bitter war that drew their allies, they fought with all their might, but neither seemed to give in to the other. The kings, blinded by ambition, decided to seek the power to win the war in magic, but their wizards, not being strong enough, by order of one of the kings, opened an old door to the underworld that had been sealed to use their magic. What they didn't know is that the source of that powerful energy was something truly evil. This power began to take the world for itself and darkness began to spread outside that gate. Now both sides had to forget about the war and unite to face an even greater enemy. Worn down by combat, they have begun recruiting enthusiasts to face the forces of evil, in an attempt to buy time while the sages search for a way to stop the evil. Among these enthusiasts is the player, a magic apprentice who wanted to risk his life to save his home.
+
+The origin of the gate to the underworld:
+A long time ago, the most powerful magicians of an ancient temple that is now in ruins tried to steal the power of the underworld, opening a magical door, but they woke up an evil entity from which all that power flowed and that could easily take over the world, terrified by such a powerful entity decided to seal the door and leave no clues as to how to open that door.
+The temple was ravaged by the same magicians to hide its location and ended up in ruins.
+A long time later, the magicians of one of the kingdoms that was in conflict discovered the way to break that seal, unleashing that great evil and now that entity has its doors open, and while he prepares his exit, he has summoned evil beings to prevent it from being sealed that door again.
+Upon reaching the door and the player is close to being able to seal it, one of the kings, corrupted by the voice of evil, decides to ally himself with the malevolent entity and makes a deal in which evil would give him enormous power to stop the hero and instead evil would let the corrupt king rule the new world.
+It could be interesting if the player and his allies slowly discover the reasons why the king sided with evil. Was he corrupted by the promise of power, or is he hiding an even darker secret? You might also consider having the evil present itself in different ways, such as influencing the player's allies or manipulating citizens into joining your cause.
+The evil entity never manages to cross the door to the underworld, because the hero manages to seal the door in time, so true evil will not be completely defeated in the event that a second part is wanted.
+The game:
+The game should be similar to Shattered Pixel Dungeons in terms of generating maps by dividing them into floors so as not to make a long and boring map and thus loading one map at a time to save resources.
+The player should find allies in the dungeon, such as other wizards and warriors. Something like the ghost that the player can summon in Shattered Pixel Dungeons, which accompanies him through all the floors while he is alive. In this way, a Magician, for example, not being a class that is precisely combat, is dedicated rather to improving and keeping his allies alive. Unlike a Monk or Warlock who would have to fight alone, still finding allies, but without the same ability to keep them alive. In this way, the same game and the same story have many ways of being played and several endings that in the end are the same. Let me explain, the end of the game is to defeat evil, but while a monk defeated him alone, using magic to empower his character, a Wizard managed to keep all the allies alive in order to defeat evil together, that would be like " pacifist route" from the game Undertale.
+It is a good way to increase the replayability of the game.
+
+For the mechanics:
+From Shattered Pixel Dungeon we will take the combat system, it is better that it be in turns, I think that would save us a lot when it comes to programming, and it would make the game easier.
+As for the experience system, I think it will mainly be given by defeated enemies, scrolls or potions, secondary missions and the creation of objects.
+The item system and equipment, as it should consist of armor, some amulets, rings, wands, a melee weapon, a spell book or magic staff, and perhaps also some consumable items such as potions, scrolls or food to recover life or energy
+We could add a crafting or forging system, in which the player can create or improve objects from materials found in the dungeon.
+We could also implement a skill system, where the player can unlock and upgrade specific skills for their character as they gain experience and level up.
+Another interesting mechanic could be the interaction with allies that are in the dungeon. Perhaps it could include the possibility of giving specific orders to allies during battle, or even changing characters during the game to take advantage of each one's unique abilities and characteristics.
+As for map generation, we could implement a procedural generation system similar to Shattered Pixel Dungeon, which allows random dungeons to be generated each time the game is played to increase the replayability of the game.
+
+The decision system:
+• To ally or not with certain characters.
+• Decide the fate of certain characters that are on the road.
+• Choose between different secondary missions that appear during the adventure.
+These decisions could have consequences throughout the game, such as plot changes, relationships with other characters, and also affect the ending of the game. For example, if the player decides to ally with evil, they might have a different ending than those who chose to fight against them. It is important that the decisions are meaningful and have a real impact on the development of the plot so that the player feels that their choice really matters.
+
+I like that the player feels that he decided.
+I'm just suggesting they're not too big of a game changer. I give an example: If you are a Sorcerer and you decide to fight against evil and you win, you go through the dungeon, defeat some bosses, defeat the Corrupt King, seal the door and win having saved the world (that would be roughly the end that until now I have in mind) but if, on the contrary, you decide to ally yourself with evil and help it get out, then the idea that evil never comes out changes so that it remains for a possible second installment.... I like these types of big changes I mean. In the end everything should lead you to seal the door. For example, a player who has been bad (it will be a game mechanic, calculate how bad he is in relation to some decisions) the Corrupt King offers to join him, and if the player accepts, upon reaching the door the Corrupt King betrays the player to keep power or so that there is no one who can be his rival, in this way the end does not change, but the means. In the end, I think that more important than what happens when winning is what happens while playing, keeping the player waiting.
+I find it interesting and would give the game more replay value.
+Also, there could be different endings depending on the player's decisions and their moral alignment.
+
+We could also add some secondary characters that offer optional quests that affect the main plot. For example, a character might ask the player to retrieve a magical item that, if returned to the correct person, could change the ending of the game.
+In general, I think the decision and consequence system should be carefully designed so that the player feels involved in the story and the consequences of their actions.
+
+As the game progresses, one of the kings represents evil and the one that was not corrupted with the promises of power represents the good side.
+I want to tell you about the player's good/evil system.
+If, for example, we have an ally who joins us if we save him but it is a secondary mission we can take him like this if the player agrees to save him we would add the value of +1 to the "alignment" variable regardless of whether he succeeds since he worried about the ally and try to save it, now if the player refuses to save it knowing that the possible ally will die then the value -1 is added to "alignment". Another example of the same case, would be if (and only for illustrative example for now) would be that a warrior is trapped in a room with a cyclops. If the player is a Wizard with the ability to bring the ally back to life and decides to wait for the cyclops to kill the ally to revive him and thus have the ally avoid combat with that dangerous miniboss, we could give him the value of -1 even having revived the ally, for being an immoral choice. If later on the player has a negative value of (for example) -5 alignment, the bad king proposes to ally with him, otherwise if his alignment is +5 something else happens.
+Seems like a good way to implement the lineup system in the game. It is important to note that the decisions the player makes must have a real impact on their lineup, otherwise the system will be meaningless.
+
+Both kings would start as good and little by little their ways of acting would separate, maintaining the illusion that both are on the player's side so that the betrayal of the bad king would be surprising.
+An idea that I find interesting is that when the player is notified about the warrior and the cyclops one of the kings says to go save him (+1) and the other says that there is no time to lose (-1) or even if the plot is advanced and already the bad king acts in a more cruel way with the excuse of stopping the evil entity before it escapes, proposing to the player to wait for the ally to die to revive him
+It seems to me a good idea to maintain the illusion that both kings are on the player's side at the beginning and that their ways of acting gradually separate, so that the betrayal of the bad king is surprising and shocking.
+As for the warrior and cyclops example, I think it's a good way to add more depth to the player alignment system. Also, the fact that the two kings have different opinions and that their positions can change as the plot progresses adds more complexity and makes the player's decisions carry more weight.
+I also like the idea that if the player has a negative alignment value, the bad king proposes to ally with him, while if his value is positive, something different happens. This gives additional motivation to the player to try to keep their lineup on the good side, as it will directly affect the plot of the game.
+Overall I think these ideas are great and will add a lot of value to the game.
+
+      
+• Theme: Medieval fantasy role-playing game.
+• Plot: The player is a wizard who must gather powerful magical artifacts to defeat an evil entity that threatens the kingdom.
+• Map Generation Mechanics: Maps are randomly generated each time the player enters a new area.
+• Fight Mechanics: The combat is turn based and the player can choose between different spells and abilities to defeat the enemies. Additionally, the player is assisted by allies who can join the party.
+• Alignment System: A good or bad value is assigned to the player based on his decisions and actions, which can influence the development of the plot and the options that are presented to him.
+• Objects: There are objects that the player can collect to improve their abilities or their equipment.
+• Skills and Wizard Types: The player can choose between different types of wizards with specific skills.
+• Two Kings: There will be two kings in the game, one good and one bad, and the player will have to make decisions that will affect his relationship with them.
+• Side Stories: There will be side quests that the player can complete to get rewards or allies.
+
+I will go on to name an object that I think all characters should have. The spell book, that way we simplify the magic of each wizard class. For example, each book has 10 "pages" so to speak, so there can be 10 spells in the book, and these are found by the player in the dungeon or learned according to the level, but are directly related to the player's class. For example, a Monk would fight more hand-to-hand, so a spell would be "Iron Skin" (just an example) that increases his resistance, while a Wizard would have "Cure" that restores his own health or that of an ally, a Sorcerer would have "Lightning" that would do damage to the enemies, a Warlock would have "Possession" that would give him control over an enemy to be his ally without the possibility of healing him... And so with each class.
+Having a spellbook for each wizard class is a good way to simplify the magic system and make it easier for players to understand and use. Also, by limiting the number of spells in the book to 10, the player has to choose carefully which spells they want to have at their disposal and how they want to use them in each situation. This can add a strategic element to the game.
+Also, the idea that players can find new spells in dungeons or learn them as they level up is a good way to encourage players to explore and try different approaches to combat and problem solving.
+
+This means that two Wizards of the same level and the same choices in the game could have different strategies, for example while one focuses on boosting allies, the other focuses on healing them. Something like that,
+This will encourage experimentation and creativity in how players combine their skills to overcome the challenges of the game.
+Another feature is that there could be a side panel for spells from the book, so you have access to various spells in a fluid way without interrupting the game and without hindering the gameplay.
+Also, if the game is turn-based like Shattered Pixels Dungeons, it would give you time to think about your attacks without pressure, the game being more strategic than action.
+That would allow the player to have a quick view of their spells and be able to quickly select them without interrupting the flow of the game. Also, if the game is turn-based, the spells side panel would give more time to strategize before making a decision. This would certainly make the game more strategic and give more depth to player decisions.
+We can call it (the game) "Kingdom Legends". It's a generic name that reflects the fantasy-adventure theme we've been discussing.
+
+
+Here is a brief description of each wizard class:
+• Mage: specialized in healing and protection magic, he can heal allies' wounds and strengthen their defense.
+• Sorcerer: expert in offensive magic, he can cast powerful fire and lightning spells to deal damage to enemies.
+• Warlock: master of dark magic, can summon creatures and curses to weaken and control enemies.
+
+The Druid would be a specialist in natural magic, capable of manipulating the elements of nature and the energies of life to heal, protect and cause harm.
+The Sorcerer would be an expert in manipulation magic, able to control enemies and allies, as well as disorient and weaken them.
+The Wizard would be a wizard who specializes in support magic, capable of buffing his allies in combat, healing their wounds, and protecting them from damage.
+The Warlock would be an expert in dark magic, capable of summoning terrifying creatures and dealing massive damage to enemies, though in return he would have fewer defensive and healing abilities.
+Monk = He is a magician who fights melee, with his blows imbued with magic, and armor with his own magic, for example, an ability that creates an ethereal armor that strengthens with each blow that the monk makes or that regenerates with a percentage of damage done. He would be a light warrior.
+Paladin = This one would use weapons, it would be a warrior but with magic, a magician capable of using swords, the heaviest armor. But unable to use advanced magic of any kind.
+What is a Wizard, a sorcerer and a witch?
+A "magician" is someone who practices magic and is capable of performing tricks and tricks that appear supernatural.
+A "sorcerer" refers to someone who has magical abilities and uses spells and rituals to achieve their goals.
+A "witch" is someone who practices magic, often using the help of spirits or supernatural entities. It is also sometimes associated with witchcraft and black magic.
+
+A Black Wizard place we will use better Warlock, so it is cooler to use the term "Warlock" to refer to the wizard who dominates dark magic. This can give a different and more original touch to the game.
+
+Sorcerer contains red and blue magic, so you must choose your spells well. He is a wizard who has both red magic and blue magic abilities, and depending on the player's choice, he can specialize in one of them as a subclass.
+
+Yes, the Wizard is a class that specializes in healing and defensive magic, so it would be considered a good wizard in most cases. However, that doesn't mean that all white wizards are necessarily good, as their morals and ethics can also influence their actions and decisions.
+
+The lineup:
+It could vary somewhat in the spells or equipment you find based on the "morale" of the player, which we will call "alignment".
+You could implement different skill branches and items that are related to player morale or alignment. For example, if the player acts in a good way, they could unlock white magic related skills and items, while if they act in a bad way, they could unlock black magic related skills and items. You could also add elements of moral choice to the game, such as decisions that affect plot development or relationships with other characters.
+The idea is that you can choose any kind of magic and not your actions choose it. If a Warlock is good, they can get some white or arcane magic, or if a Wizard is bad they can get some curse like drain life for example.
+So the player's "alignment" or "morale" would not limit the magic options they can use, but would affect how the character interacts with the game world and how they are perceived by non-playable characters (NPCs) in the game. game. For example, a player with a good alignment may be more easily accepted by NPCs and have access to specific quests, while a player with a poor alignment may have a harder time relating to NPCs and being accepted in certain locations or quests.
+Things like extra quests to gain the trust of an NPC or give you some extra item if you're good, also unique dialogues depending on the alignment level. For example, a character says:
+"I have faith in you <player name>, my sword is yours> and I decided to follow the player.
+But if you're bad say something like:
+"In these times any help is welcome" and join the player.
+If it's bad enough, send him on another mission to agree to accompany him.
+And if you have reached the maximum of evil say something like:
+"I have to fear you more than the evil that the gates of the underworld contain." and proceed to fight the player.
+The idea is that you can be the kind of wizard you want to be, and that the skills are what are affected by the alignment and not the classes
+You have to design a system of abilities that are affected by the player's alignment instead of classes. For example, a healing ability might be more effective for a player with a good alignment than a player with a bad alignment, while a damage ability might be more effective for a player with a bad alignment than a player with a good alignment. . This way, players can choose any magic class and still have the freedom to be the type of hero they want to be, based on their alignment.
+
+Also modify the skill tree slightly, for example. A Wizard with a good alignment at a certain level unlocks "Bless" (for example) which gives a percentage chance to heal from negative effects or restore some health to allies every time the Wizard deals physical damage.
+The player's alignment can affect the type of abilities they can unlock and how they work. For example, a Wizard with a good alignment might unlock abilities that support allies, such as "Bless" or "Heal", while a Wizard with a bad alignment might unlock abilities that deal more damage to enemies, such as "Curse". . In this way, the player's roster choice would have a significant impact on gameplay and the abilities they can use.
+
+For example, since, although bad, he is a white magician, he could not use very advanced black magic, but if for example "Griffin" (an example name) where for each hit the Magician can steal some life from the enemy and replenish it alone the mage and not the allies.
+The "alignment" should be a hidden value, that is only taken in the game without the player knowing it, so it will seem that the characters have some awareness, of course the player will quickly know that it is a game mechanism, but that will give him a nice touch that they will surely like. An example of that is in Undertale.
+This would add an additional level of depth and mystery to the game, and would allow the player to discover their own alignment through the choices and actions they take during the game. Furthermore, by keeping it hidden, the dialogues and interactions with the characters in the game could vary according to the player's decisions without it being evident that it is a gameplay mechanism.
+Also, it could be interesting that the decisions you make as a player also affect the plot and development of the game, thus creating different possible endings and outcomes depending on the choices you make. This can add an extra layer of replayability to the game and make players want to replay to explore all the different options and endings.
+
+Warrior, Archer and Rogue are discarded
+
+• Paladin: A magician specializing in holy magic and divine justice, combining magical abilities with close combat abilities. She can heal wounds, protect her allies with holy spells, and repel evil forces, but she is also capable of dealing damage to enemies and judging their wickedness with divine power. He is a defender of law and morality, and his faith gives him great strength and determination.
+
+• Monk: A magician who focuses on using his body and mind to control and manipulate the energy of the universe. His abilities focus on martial arts, meditation, and the use of chi energy to perform supernatural feats such as healing, telekinesis, and channeling elemental energy.
+• Cleric: a magician who gets his powers from a deity or divine power, so his abilities are focused on healing, protection, and destroying enemies. She can use her magic to summon divine creatures or to heal her allies, and she can also fight non-believers and those who represent evil.
+
+As the cleric is a very good idea we can create some NPC to develop the character a bit
+•
+We currently have 7 classes: Mage, Sorcerer, Warlock, Druid, Monk, Paladin, and Alchemist.
+
+The Alchemist is a character who uses his knowledge of material manipulation and transmutation to create potions, elixirs, and other items that can grant temporary or permanent benefits to his allies or cause damage to his enemies. In terms of combat, the Alchemist can use his potions and elixirs to heal allies or damage enemies, as well as having unique abilities that allow him to create and launch chemical attacks.
+
+The first Boss of the game will be one of the king's magicians who was corrupted, upon defeating him, he comes to his senses, and when he cannot survive, he puts his life force into his last spell, which would give you the class of your choice.
+
+Being a supreme magician, but corrupt, he cannot release all his power, so you can defeat him as an apprentice. When he comes to, he will be able to use all his power. Why not heal? the excuse may be that he does not have enough willpower to resist the force of evil that corrupts people, so healing his wounds would be pointless.
+Upon being defeated, his last act of kindness is to grant you the class of your choice. You can also take the opportunity to introduce some type of curse or secondary effect that comes with the chosen class, to add a bit of excitement and challenge to the game.
+
+Being an old and wise wizard he has knowledge of all magic, not enough to make you the wizard of your choice, but enough to initiate you. From there you get the spell book and you will unlock the corresponding skill branch.
+
+The Apprentice is unable to use magic, but can use magic items and potions. We will give you a wand and a sword. The wands will be weapons with a specific spell, a basic spell, like a ball of energy, fire, etc... which have a certain number of charges, which recover over time. Another thing that you can use will be the scrolls, they have stronger magic than the wands, but they are only read once or a maximum of three times, and they do not recharge but rather disappear
+The Apprentice may also be able to use certain magical items found on his adventure, such as rings, amulets, talismans, etc. Each of these items could provide some kind of buff or specific magical ability. Additionally, the Apprentice might have basic combat or physical abilities, such as the ability to dodge, block, attack with his sword, and perform some simple maneuvers. These physical abilities could be improved as the Apprentice gains experience and levels up.
+
+You should find the first boss fast, as a magic game without magic is meaningless. Add the apprentice as part of the plot since he himself is not a class.
+
+• Mage: A specialized magic user, capable of casting a wide variety of spells to deal damage, weaken enemies, or protect allies. His source of power is magical energy and he uses his wisdom and skill to control it.
+• Sorcerer: A magician who specializes in manipulating magical energy to produce amazing and powerful effects. Unlike the mage, the sorcerer focuses on the brute force of magic rather than its control.
+• Sorcerer: He is a dark magician who obtains his power from sinister mystical forces. He uses black magic to inflict damage on his enemies and to control and manipulate the most terrible creatures.
+• Druid: He is a spiritual warrior who communicates with nature and channels its power. She can transform into animals, summon creatures to fight at her side, and use magic to heal the wounded and protect her allies.
+• Monk: He is a warrior who has mastered martial arts and meditation. He uses his body and mind to deal damage to enemies and to protect his allies.
+• Paladin: He is a holy warrior who uses his faith and strength to fight evil. They can heal the wounded, protect allies, and use holy magic to deal damage to enemies.
+• Alchemist: He is an expert in alchemy, capable of creating potions and concoctions with surprising effects. You can also use your knowledge to craft special weapons and armor, and to create traps and explosives.
+Each class will have their own unique abilities, attributes, and stats that set them apart from the rest. They will also have access to different weapons and armor, and will be able to specialize in different skill branches to improve their abilities in specific areas.
+
+So far on the subject of World and Map:
+• The game world will have different zones with different climates and landscapes.
+• Each zone will have different types of enemies and bosses, as well as different resources and useful items.
+• The game map will be divided into zones that are unlocked as the story progresses or certain conditions are met.
+
+• Areas of the map will be connected by paths and doors that open when certain conditions are met, such as defeating a boss or solving a puzzle.
+• Players will be able to use certain items or abilities to move faster around the map, such as a teleport or a speed spell.
+
+We are going to base ourselves on Shatterd Pixels Dungeons for this map, and it will be in a dungeon where we are going to look for the door to seal. Also, for now we have a lot of work to do with the single player, to embark on the multiplayer
+Regarding World and Map, so far we have:
+• The game takes place in a procedurally generated dungeon.
+• Players must search for the final boss door to seal it and win the game.
+• Shattered Pixel Dungeons map style and dungeon generation will be used.
+• The game will be single player, with no multiplayer mode.
+
+
+These are the points we have so far in the World and Map theme:
+• The game will take place in a randomly generated dungeon each time it is played.
+• The dungeon will have several levels or floors, each more difficult than the last.
+• Each level will consist of several rooms connected by corridors.
+• At the end of each level there will be a boss that must be defeated in order to advance to the next level.
+• The objective of the game will be to find the door that leads to the sealed dimension and defeat the final boss that protects it.
+• The player must explore the dungeon to find objects and treasures that help him advance.
+• There will be traps and obstacles in the dungeon that the player must overcome.
+• The dungeon will be populated by enemies that the player must defeat.
+• The player must find keys and objects to be able to open doors and advance.
+• There will be no multiplayer mode, the game will be single player.
+
+On the topic of History:
+• The king explains that there is an ancient sealed door that is in a deep dungeon.
+• The door was sealed centuries ago by the sages to prevent a great threat from reaching the world.
+• The dungeon is a dangerous place and full of traps, but the player must go through it to get to the door and seal it.
+• The player will start as an Apprentice who does not know how to use magic and must find a way to acquire a class.
+• The first boss is a corrupted wizard who, when defeated, will initiate the player into a class of their choice.
+• The player will meet characters on his way, some of which will give him side quests.
+• The ultimate goal is to seal the door to prevent the great threat from being released into the world.
+
+
+Game History
+
+Some time ago, two of the most powerful kingdoms went to war, a bloody and bitter war. Each king called his allies and they fought with all their might, but neither seemed to give in to the other.
+The kings, blinded by ambition, decided to seek the power to win the war in magic. But his magicians, not being strong enough, by order of the king opened a door to the underworld to use their magic. What they didn't know is that the source of that powerful energy was something truly evil.
+This power began to take the world for itself and darkness began to spread outside that gate. Now both sides had to forget about the war and come together to face an even bigger enemy. Worn down by combat, they have begun recruiting enthusiasts to face the forces of evil, in an attempt to buy time while the sages search for a way to stop the evil. Among these enthusiasts is the player, a magic apprentice who wanted to risk his life to save his home. Will he be able to put an end to this nightmare?
+The origin of the door:
+A long time ago, the most powerful magicians tried to steal the power of the underworld, opening a magical door, but they woke up an evil entity from which all that power emanated. This power could easily take over the world. Terrified, the wizards decided to seal the door and leave no clues on how to open that door. Then wizards from one of the warring kingdoms figured out a way to break that seal, unleashing that great evil. Now that entity has the doors open and while he prepares his exit he has summoned evil beings to prevent that door from being sealed.
+Development:
+Now that I think about it, I don't think it would be necessary for the evil entity to come out of the underworld. What if one of the kings, upon reaching the gate and the player close to being able to seal it, decides to ally with evil? He could make a deal in which the evil would give him enormous power to stop the hero, and in return, the evil would let the corrupt king rule the new world.
+In this way, the true evil will not be completely defeated in the event that a second part is wanted to be made.
+Magic system and progress system and levels.
+For the magic system, a system based on skills and spells could be used. Each ability or spell would cost mana or energy, and could have any number of effects, from direct damage to enemies to healing or summoning creatures. Players could unlock new abilities or upgrade existing ones as they level up or complete quests.
+Regarding the system of progress and levels, an experience system could be used that is obtained by defeating enemies, completing missions or achieving achievements in the game. As experience is accumulated, the player would level up, allowing them to unlock new abilities and improve their attributes like health, mana, strength, agility, etc. An equipment system could also be added that allows the player to improve their attributes and abilities through items and weapons found in the dungeon.
+
+When you level up you will earn points to improve the skills, depending on the skills you choose you will get a more personalized magician. The most important thing is that you cannot get all the skills, so there is more than one option of Wizard, Druid, Paladin...
+So for the progress and levels system, certain skills could be set that the player can upgrade as they level up. For example, abilities like magic power, magic resist, the ability to summon magical creatures, spell casting speed, etc. Each skill can be divided into multiple levels, and leveling up gives the player a skill point to spend on one of those skills.
+It is also possible to add abilities specific to certain mage classes, such as healing abilities for white mages, transformation abilities for druids, defense abilities for paladins, etc. In this way, each wizard class will have its own way of playing and unique strategies.
+To encourage diversity among mages, a limit can be set on the number of skills the player can learn. For example, the player can only learn a maximum of 10 skills in total, which means they will have to choose carefully which skills to upgrade and which to leave out. This will also encourage players to experiment with different skills and strategies.
+Finally, granting special abilities or skill enhancements through special quests and achievements can be considered, which will motivate players to explore and experiment in the game world to improve their wizard characters.
+
+For example base physical damage, base defense, evasion, block option or other values go up by default when leveling up. To put it in a way, I present an example table where I place the relationship between each class and how their statistics increase per level. Mage: Strength +0.5 - 1; Defense + 0.5 - 1; Agility +1; Magic + 1 - 3; Evasion + 1 - 1.5. Warlock: Strength +0.3 - 0.8; Defense + 0.5 - 1; Agility +1.2; Magic +4; Evasion + 1. Paladin: Strength + 2 - 4; Defense +3 - 4.5; Agility +0.6; Magic + 1; Evasion + 2. That is an example of the values that will increase automatically when you level up. On the other hand, the game will give you skill points, with which to acquire or improve skills. These will be chosen by the player
+
+As for the magic system, one could consider having each character have a limited set of spells they can use, which would add a strategic element to battles. Also, there could be certain magic abilities that are only available to certain classes, as mentioned above.
+
+
+Yes, indeed there will be a limited number of spells, 10. It will still be a limited number of abilities, with which to enhance the spells. To give examples: The Magician: He could get "Blessing" if it's good (I don't know if you remember it) that gives him a percentage chance to heal from negative effects or restore life to allies every time the magician deals physical damage. Or if it's bad I could get "Griffin" that steals a percentage of life from the mage when hitting an enemy. Regardless of the ability, if the mage has the Heal spell, he could keep his allies alive if he gets Blessing, or himself if he gets Griffon
+Skills can complement spells to improve the player's strategy and make their character more effective in combat. In addition, the fact that the abilities are limited encourages strategic choice and character customization.
+How are skills acquired in the game?
+So far it would be three requirements. Character Level, Alignment, and Character Class
